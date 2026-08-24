@@ -103,7 +103,7 @@ This project addresses Canada's low recycling rate, where sensor limitations in 
 - Early concepts explored a rotary actuator driving a series of gears, and a roller riding along a track, before the team settled on this simpler rod and pin design, which was refined through several rounds of sketches to work out pin placement and slider geometry before being modelled in Autodesk Inventor and fabricated by 3D printing.
 - After dumping, the actuator retracts, resetting the hopper to its closed position before the robot returns home.
 
-<video src="https://github.com/user-attachments/assets/3b299f03-7b70-4d6b-bcd0-1d44d2f16259" controls></video>
+<video src="https://github.com/user-attachments/assets/857b45c8-ef57-49da-bb1a-ce1d004fa818" controls></video>
 <p align="center"><em>Demonstration of the CAD-Designed Rod and Pin Mechanism Extending and Tipping the Hopper to Release Its Contents.</em></p>
 
 ---
