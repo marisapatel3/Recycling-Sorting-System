@@ -8,7 +8,7 @@ Sensor equipped robot that identifies waste by material type and autonomously so
 
 <p align="center">
 <img src="Media/Pictures/Full_Physical_Design_with_Hopper.jpg" alt="Physical design" width="550"><br>
-<em>Hopper Mechanism Mounted to the Quanser Q-bot, Shown Beside Containers Representing the Waste It Sorts.</em>
+<em>Full CAD-Modelled Mechanism Attached to the Hopper and Linear Actuator.</em>
 </p>
 
 ---
@@ -103,10 +103,8 @@ This project addresses Canada's low recycling rate, where sensor limitations in 
 - Early concepts explored a rotary actuator driving a series of gears, and a roller riding along a track, before the team settled on this simpler rod and pin design, which was refined through several rounds of sketches to work out pin placement and slider geometry before being modelled in Autodesk Inventor and fabricated by 3D printing.
 - After dumping, the actuator retracts, resetting the hopper to its closed position before the robot returns home.
 
-<p align="center">
-<video src="Media/Videos/Hopper_Mechanism_Demonstration.mp4" controls width="500"></video><br>
-<em>Demonstration of the Rod and Pin Mechanism Extending and Tipping the Hopper to Release Its Contents. No Containers Were Loaded During This Test, but the Motion Confirms the Hopper Tips Far Enough to Fully Empty Its Contents.</em>
-</p>
+<video src="https://github.com/user-attachments/assets/3b299f03-7b70-4d6b-bcd0-1d44d2f16259" controls></video>
+<p align="center"><em>Demonstration of the CAD-Designed Rod and Pin Mechanism Extending and Tipping the Hopper to Release Its Contents.</em></p>
 
 ---
 
