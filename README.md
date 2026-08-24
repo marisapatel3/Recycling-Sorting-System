@@ -65,13 +65,13 @@ This project addresses Canada's low recycling rate, where sensor limitations in 
 
 | Stage | Component | Output |
 |---|---|---|
-| Dispensing | Rotary table | Container placed at random with an assigned material id and weight |
-| Detection | Quanser Q-bot sensors | Material type identified for each container |
+| Dispensing | Rotary Table | Container placed at random with an assigned material id and weight |
+| Detection | Quanser Q-bot Sensors | Material type identified for each container |
 | Loading | Quanser Q-arm | Up to 3 containers loaded onto the hopper, combined weight capped at 90 grams |
-| Navigation | IR sensor, fixed line track | Robot follows the track toward the identified bin |
-| Positioning | Ultrasonic sensor | Robot stopped at the correct distance from the bin |
-| Dumping | Linear actuator, rod and pin mechanism | Hopper rotates and releases containers into the bin |
-| Return | Python program | Robot navigates back to its home position to begin the next cycle |
+| Navigation | IR Sensor, Fixed Line Track | Robot follows the track toward the identified bin |
+| Positioning | Ultrasonic Sensor | Robot stopped at the correct distance from the bin |
+| Dumping | Linear Actuator, Rod and Pin Mechanism | Hopper rotates and releases containers into the bin |
+| Return | Python Program | Robot navigates back to its home position to begin the next cycle |
 
 ---
 
@@ -103,8 +103,8 @@ This project addresses Canada's low recycling rate, where sensor limitations in 
 - Early concepts explored a rotary actuator driving a series of gears, and a roller riding along a track, before the team settled on this simpler rod and pin design, which was refined through several rounds of sketches to work out pin placement and slider geometry before being modelled in Autodesk Inventor and fabricated by 3D printing.
 - After dumping, the actuator retracts, resetting the hopper to its closed position before the robot returns home.
 
-<video src="https://github.com/user-attachments/assets/857b45c8-ef57-49da-bb1a-ce1d004fa818" controls></video>
-<p align="center"><em>Demonstration of the CAD-Designed Rod and Pin Mechanism Extending and Tipping the Hopper to Release Its Contents.</em></p>
+  <video src="https://github.com/user-attachments/assets/857b45c8-ef57-49da-bb1a-ce1d004fa818" controls></video>
+  <p align="center"><em>Demonstration of the CAD-Designed Rod and Pin Mechanism Extending and Tipping the Hopper to Release Its Contents.</em></p>
 
 ---
 
