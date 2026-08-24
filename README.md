@@ -2,7 +2,7 @@
 
 McMaster ENGINEER 1P13, Jan 2022 – Mar 2022.
 
-Sensor equipped robot that identifies waste by material type and autonomously sorts it into designated bins along a fixed track.
+Sensor equipped robot that identifies waste by material type and autonomously sorts it into designated bins along a fixed track, using a custom designed rod and pin mechanism to tip the hopper and release its contents.
 
 `Python` `Autodesk Inventor` `3D Printing` `Quanser Interactive Labs` `Robotics`
 
@@ -21,7 +21,7 @@ Sensor equipped robot that identifies waste by material type and autonomously so
   - [1. Material Detection](#1-material-detection)
   - [2. Loading](#2-loading)
   - [3. Navigation & Positioning](#3-navigation--positioning)
-  - [4. Hopper Tipping Mechanism](#4-hopper-tipping-mechanism)
+  - [4. Actuation Mechanism](#4-actuation-mechanism)
 - [CAD & Physical Mechanism](#cad--physical-mechanism)
 - [Results](#results)
 - [Full Report](#full-report)
@@ -30,7 +30,7 @@ Sensor equipped robot that identifies waste by material type and autonomously so
 
 ## Overview
 
-This project addresses Canada's low recycling rate, where sensor limitations in identifying material type and contamination make large scale sorting difficult, resulting in most plastic waste ending up in landfills. The finished system is a small scale robot that identifies waste dispensed onto a rotary table, loads it onto a hopper, navigates a fixed track, and deposits it into the correct designated bin. Main components include a Quanser Q-bot equipped with ultraviolet, IR, colour, and LDR sensors, a Quanser Q-arm robotic arm, a linear actuator driven hopper mechanism, and a Python program built in Quanser Interactive Labs.
+This project addresses Canada's low recycling rate, where sensor limitations in identifying material type and contamination make large scale sorting difficult, resulting in most plastic waste ending up in landfills. The finished system is a small scale robot that identifies waste dispensed onto a rotary table, loads it onto a hopper, navigates a fixed track, and deposits it into the correct designated bin. The system combines a Quanser Q-bot equipped with ultraviolet, IR, colour, and LDR sensors, a Quanser Q-arm robotic arm, and a Python program built in Quanser Interactive Labs to identify, load, and navigate, with a custom designed rod and pin mechanism, modelled in Autodesk Inventor and 3D printed, that connects the linear actuator to the hopper to release its contents at each bin.
 
 ---
 
@@ -47,17 +47,17 @@ This project addresses Canada's low recycling rate, where sensor limitations in 
 | Colour Sensor | Detects the colour of each container to help classify material type |
 | LDR (Light Dependent Resistor) Sensor | Detects light levels to assist material identification |
 | Ultrasonic Sensor | Measures distance to position the robot accurately in front of each bin before disposal |
-| Linear Actuator | Drives the hopper tipping mechanism to release waste into the correct bin |
-| Rod, Slider, and Pins | Connect the linear actuator to the hopper's baseplate, converting linear actuation into hopper rotation |
+| Linear Actuator | Mounted to the system's baseplate, drives the rod and pin mechanism to tip the hopper and release waste into the correct bin |
+| Rod, Slider, and Pins | Custom designed mechanism connecting the linear actuator to the hopper, converting linear actuation into hopper rotation |
 | Rotary Table | Dispenses waste containers at random for the robot to identify and load |
 
 ### Software
 
 | Tool / Library | Purpose |
 |---|---|
+| Autodesk Inventor | CAD modelling of the rod and pin mechanism and its individual components |
 | Quanser Interactive Labs (Q-Labs) | Virtual environment simulating the Q-bot, Q-arm, sensors, and recycling facility layout |
 | Python | Program controlling detection, loading, navigation, dumping, and return to home position |
-| Autodesk Inventor | CAD modelling of the hopper tipping mechanism and its individual components |
 
 ---
 
@@ -70,7 +70,7 @@ This project addresses Canada's low recycling rate, where sensor limitations in 
 | Loading | Quanser Q-arm | Up to 3 containers loaded onto the hopper, combined weight capped at 90 grams |
 | Navigation | IR sensor, fixed line track | Robot follows the track toward the identified bin |
 | Positioning | Ultrasonic sensor | Robot stopped at the correct distance from the bin |
-| Dumping | Linear actuator, hopper mechanism | Hopper rotates and releases containers into the bin |
+| Dumping | Linear actuator, rod and pin mechanism | Hopper rotates and releases containers into the bin |
 | Return | Python program | Robot navigates back to its home position to begin the next cycle |
 
 ---
@@ -95,35 +95,34 @@ This project addresses Canada's low recycling rate, where sensor limitations in 
 - Bin locations are defined using coordinate values within the Quanser Interactive Labs environment, which the program references to navigate the robot toward the correct bin.
 - Once close to the target, an ultrasonic sensor measures distance and stops the robot at the correct position in front of the bin before dumping.
 
-### 4. Hopper Tipping Mechanism
+### 4. Actuation Mechanism
 
-- The hopper mechanism is built around a linear actuator, with a rod connecting the actuator to the hopper's baseplate.
-- As the actuator extends, the rod pushes against the baseplate, rotating the hopper and releasing its contents into the bin below.
-- Pins secure both ends of the rod, with small cylindrical securing pieces holding each pin in place to keep the mechanism stable during operation.
+- The linear actuator is mounted to the system's baseplate, positioned below and connected to the hopper by a rod, slider, and pin assembly designed specifically for this project.
+- As the actuator extends, the rod pushes against the hopper, rotating it on its hinge and releasing its contents into the bin below.
+- Pins secure both ends of the rod, with small cylindrical pieces holding each pin in place within the slider to keep the mechanism stable during repeated actuation.
+- Early concepts explored a rotary actuator driving a series of gears, and a roller riding along a track, before the team settled on this simpler rod and pin design, which was refined through several rounds of sketches to work out pin placement and slider geometry before being modelled in Autodesk Inventor and fabricated by 3D printing.
 - After dumping, the actuator retracts, resetting the hopper to its closed position before the robot returns home.
 
 <p align="center">
 <video src="Media/Videos/Hopper_Mechanism_Demonstration.mp4" controls width="500"></video><br>
-<em>Demonstration of the Hopper Mechanism Extending and Tipping to Release Its Contents. No Containers Were Loaded During This Test, but the Motion Confirms the Hopper Tips Far Enough to Fully Empty Its Contents.</em>
+<em>Demonstration of the Rod and Pin Mechanism Extending and Tipping the Hopper to Release Its Contents. No Containers Were Loaded During This Test, but the Motion Confirms the Hopper Tips Far Enough to Fully Empty Its Contents.</em>
 </p>
 
 ---
 
 ## CAD & Physical Mechanism
 
-The hopper mechanism and its components, including the rod, slider, and pins, were modelled in Autodesk Inventor before fabrication and 3D printing.
-
 <p align="center">
   <img src="Media/Pictures/CAD_Home_View.jpg" width="300">
   <img src="Media/Pictures/CAD_Left_Right_View.jpg" width="300">
 </p>
-<p align="center"><em>CAD Model of the Hopper Mechanism From the Home View (Left) and Side View Showing the Actuated Rotation (Right).</em></p>
+<p align="center"><em>CAD Model of the Rod and Pin Mechanism From the Home View (Left) and Side View Showing the Actuated Rotation (Right).</em></p>
 
 <p align="center">
   <img src="Media/Pictures/Rod.jpg" width="300">
   <img src="Media/Pictures/Slider.jpg" width="300">
 </p>
-<p align="center"><em>CAD Model of the Rod (Left) and Slider (Right) Components of the Hopper Mechanism.</em></p>
+<p align="center"><em>CAD Model of the Rod (Left) and Slider (Right) Components of the Mechanism.</em></p>
 
 <p align="center">
   <img src="Media/Pictures/Pin_Securing_Piece.jpg" width="300">
@@ -135,14 +134,21 @@ The hopper mechanism and its components, including the rod, slider, and pins, we
   <img src="Media/Pictures/Physical_Mechanism.jpg" width="300">
   <img src="Media/Pictures/Physical_Mechanism_Close_Up.jpg" width="300">
 </p>
-<p align="center"><em>3D Printed Hopper Mechanism Mounted to the Quanser Q-bot (Left), and a Close Up View of the Rod and Pin Assembly (Right).</em></p>
+<p align="center"><em>3D Printed Rod and Pin Mechanism Mounted to the Quanser Q-bot (Left), and a Close Up View of the Rod and Pin Assembly (Right).</em></p>
+
+<p align="center">
+  <img src="Design/Engineering Drawings/Rod_Drawing.jpg" width="300">
+  <img src="Design/Engineering Drawings/Slider_Drawing.jpg" width="300">
+</p>
+<p align="center"><em>Engineering Drawings of the Rod (Left) and Slider (Right), in mm.</em></p>
 
 ---
 
 ## Results
 
 - The system functioned as a fully automated small scale sorting robot, correctly identifying waste by material type before directing it to the appropriate bin.
-- The Quanser Q-arm and hopper mechanism successfully loaded, transported, and released waste into its designated bin within the enforced 90 gram weight limit.
+- The rod and pin mechanism reliably rotated the hopper and released its load once the robot reached its target, confirmed through repeated actuation testing.
+- The Quanser Q-arm and hopper successfully loaded, transported, and released waste into its designated bin within the enforced 90 gram weight limit.
 - The project illustrated a viable small scale model for automated sorting, supporting the broader goal of increasing recycling efficiency at facilities limited by manual sorting capacity.
 
 ---
