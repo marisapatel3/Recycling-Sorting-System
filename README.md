@@ -7,7 +7,7 @@ Sensor equipped robot that identifies waste by material type and autonomously so
 `Python` `Autodesk Inventor` `3D Printing` `Quanser Interactive Labs` `Robotics`
 
 <p align="center">
-<img src="Media/Pictures/Physical_Mechanism_Side_View.jpg" alt="Physical mechanism" width="550"><br>
+<img src="Media/Pictures/Full_Physical_Design_with_Hopper.jpg" alt="Physical design" width="550"><br>
 <em>Hopper Mechanism Mounted to the Quanser Q-bot, Shown Beside Containers Representing the Waste It Sorts.</em>
 </p>
 
