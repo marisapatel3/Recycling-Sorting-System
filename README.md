@@ -110,10 +110,9 @@ This project addresses Canada's low recycling rate, where sensor limitations in 
 
 ## CAD & Physical Mechanism
 
-ADD PHYSICAL PRINTED MODEL PICS FIRST
 <p align="center">
-  <img src="Media/Pictures/CAD_Home_View.jpg" width="300">
-  <img src="Media/Pictures/CAD_Left_Right_View.jpg" width="300">
+  <img src="Design/Physical Model/Full_Assembled_Physical_Model.jpg" width="300">
+  <img src="Design/Physical Model/Physical_Model_Close_Up.jpg" width="300">
 </p>
 <p align="center"><em>CAD Model of the Rod and Pin Mechanism From the Home View (Left) and Side View Showing the Actuated Rotation (Right).</em></p>
 
@@ -127,7 +126,7 @@ NOW ADD AUTODESK PICS HERE
 
 
 
-ADD CAD MODAL PICS OF CERTAIN PARTS HERE
+ADD CAD MODEL PICS OF CERTAIN PARTS HERE
 <p align="center">
   <img src="Media/Pictures/Rod.jpg" width="300">
   <img src="Media/Pictures/Slider.jpg" width="300">
