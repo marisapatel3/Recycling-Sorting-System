@@ -79,9 +79,9 @@ This project addresses Canada's low recycling rate, where sensor limitations in 
 
 ### 1. Material Detection
 
-- Containers are dispensed at random onto the rotary table, each assigned a material id used by the program to determine the correct bin.
+- Containers are dispensed at random onto the rotary table, each assigned a material ID used by the program to determine the correct bin.
 - The ultraviolet, colour, and LDR (light dependent resistor) sensors work together to identify the material type of each container before it is loaded.
-- The program compares each new container's material id against the previous one to decide whether it can be grouped with containers already loaded on the hopper.
+- The program compares each new container's material ID against the previous one to decide whether it can be grouped with containers already loaded on the hopper.
 
 ### 2. Loading
 
