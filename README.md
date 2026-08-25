@@ -161,7 +161,7 @@ This project addresses Canada's low recycling rate, where sensor limitations in 
 
 - The system functioned as a fully automated small scale sorting robot, correctly identifying waste by material type before directing it to the appropriate bin.
 - The rod and pin mechanism reliably rotated the hopper and released its load once the robot reached its target, confirmed through repeated actuation testing.
-- The Quanser Q-arm and hopper successfully loaded, transported, and released waste into its designated bin within the enforced 90 gram weight limit.
+- The Quanser Q-arm and hopper successfully loaded, transported, and released waste into its designated bin within the 90 gram weight limit.
 - The project illustrated a viable small scale model for automated sorting, supporting the broader goal of increasing recycling efficiency at facilities limited by manual sorting capacity.
 
 ---
