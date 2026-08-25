@@ -122,31 +122,22 @@ This project addresses Canada's low recycling rate, where sensor limitations in 
 </p>
 <p align="center"><em>CAD Model of the Rod and Pin Mechanism From the Home View (Left) and Side View Showing the Actuated Rotation (Right).</em></p>
 
-
-
-ADD CAD MODEL PICS OF CERTAIN PARTS HERE
 <p align="center">
-  <img src="Media/Pictures/Rod.jpg" width="300">
-  <img src="Media/Pictures/Slider.jpg" width="300">
+  <img src="Media/Pictures/CAD_Rod.jpg" width="300">
+  <img src="Media/Pictures/CAD_Slider.jpg" width="300">
 </p>
 <p align="center"><em>CAD Model of the Rod (Left) and Slider (Right) Components of the Mechanism.</em></p>
 
 <p align="center">
-  <img src="Media/Pictures/Pin_Securing_Piece.jpg" width="300">
-  <img src="Media/Pictures/Cylindrical_Pin.jpg" width="300">
+  <img src="Media/Pictures/CAD_Cylindrical_Pin_Actuator_Piece.jpg" width="300">
+  <img src="Media/Pictures/CAD_Cylindrical_Pin.jpg" width="300">
 </p>
 <p align="center"><em>CAD Model of the Pin Securing Piece (Left) and Cylindrical Pin (Right) That Hold the Rod in Place.</em></p>
 
 <p align="center">
-  <img src="Media/Pictures/Physical_Mechanism.jpg" width="300">
-  <img src="Media/Pictures/Physical_Mechanism_Close_Up.jpg" width="300">
+  <img src="Media/Pictures/CAD_Pin_Securing_Piece.jpg" width="300">
 </p>
 <p align="center"><em>3D Printed Rod and Pin Mechanism Mounted to the Quanser Q-bot (Left), and a Close Up View of the Rod and Pin Assembly (Right).</em></p>
-
-
-
-
-
 
 <p align="center">
   <img src="Design/Engineering Drawings/Rod_Drawing.jpg" width="400">
