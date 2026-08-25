@@ -146,11 +146,27 @@ ADD CAD MODAL PICS OF CERTAIN PARTS HERE
 </p>
 <p align="center"><em>3D Printed Rod and Pin Mechanism Mounted to the Quanser Q-bot (Left), and a Close Up View of the Rod and Pin Assembly (Right).</em></p>
 
+
+
+
+
+
 <p align="center">
-  <img src="Design/Engineering Drawings/Rod_Drawing.jpg" width="300">
-  <img src="Design/Engineering Drawings/Slider_Drawing.jpg" width="300">
+  <img src="Design/Engineering Drawings/Rod_Drawing.jpg" width="400">
+  <img src="Design/Engineering Drawings/Slider_Drawing.jpg" width="400">
 </p>
-<p align="center"><em>Engineering Drawings of the Rod (Left) and Slider (Right), in mm.</em></p>
+<p align="center"><em>Engineering Drawings of Rod (left) and Slider (right), in mm.</em></p>
+
+<p align="center">
+  <img src="Design/Engineering Drawings/Cylindrical_Pin_Actuator_Piece_Drawing.jpg" width="400">
+  <img src="Design/Engineering Drawings/Cylindrical_Pin_Drawing.jpg" width="400">
+</p>
+<p align="center"><em>Engineering Drawings of Cylindrical Pin Actuator Piece (left) and Cylindrical Pin (right), in mm.</em></p>
+
+<p align="center">
+  <img src="Design/Engineering Drawings/Pin_Securing_Piece_Drawing.jpg" width="400">
+</p>
+<p align="center"><em>Engineering Drawings of Pin Securing Piece, in mm.</em></p>
 
 ---
 
