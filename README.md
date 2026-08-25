@@ -30,7 +30,7 @@ Sensor equipped robot that identifies waste by material type and autonomously so
 
 ## Overview
 
-This project addresses Canada's low recycling rate, where sensor limitations in identifying material type and contamination make large scale sorting difficult, resulting in most plastic waste ending up in landfills. The finished system is a small scale robot that identifies waste dispensed onto a rotary table, loads it onto a hopper, navigates a fixed track, and deposits it into the correct designated bin. The system combines a Quanser Q-bot equipped with ultraviolet, IR, colour, and LDR sensors, a Quanser Q-arm robotic arm, and a Python program built in Quanser Interactive Labs to identify, load, and navigate, with a custom designed rod and pin mechanism, modelled in Autodesk Inventor and 3D printed, that connects the linear actuator to the hopper to release its contents at each bin.
+This project addresses Canada's low recycling rate, where sensor limitations in identifying material type and contamination make large scale sorting difficult, resulting in most plastic waste ending up in landfills. The finished system is a small scale robot that identifies waste dispensed onto a rotary table, loads it onto a hopper, navigates a fixed track, and deposits it into the correct designated bin. The system combines a Quanser Q-bot equipped with ultraviolet, IR (infrared), colour, and LDR (Light Dependent Resistor) sensors, a Quanser Q-arm robotic arm, and a Python program built in Quanser Interactive Labs to identify, load, and navigate, with a custom designed rod and pin mechanism, modelled in Autodesk Inventor and 3D printed, that connects the linear actuator to the hopper to release its contents at each bin.
 
 ---
 
