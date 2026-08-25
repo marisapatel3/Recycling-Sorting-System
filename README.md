@@ -41,7 +41,7 @@ This project addresses Canada's low recycling rate, where sensor limitations in 
 | Component | Purpose |
 |---|---|
 | Quanser Q-bot | Mobile robot base that carries the hopper, follows the fixed track, and positions itself in front of each bin |
-| Quanser Q-arm | Robotic arm that loads dispensed containers from the rotary table onto the hopper |
+| Quanser Q-arm | Robotic arm that loads containers from the rotary table onto the hopper |
 | Ultraviolet Sensor | Assists in identifying material type of each dispensed container |
 | IR (Infrared) Sensor | Keeps the robot following its fixed line track |
 | Colour Sensor | Detects the colour of each container to help classify material type |
