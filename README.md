@@ -65,11 +65,11 @@ This project addresses Canada's low recycling rate, where sensor limitations in 
 
 | Stage | Component | Output |
 |---|---|---|
-| Dispensing | Rotary Table | Container placed at random with an assigned material id and weight |
+| Dispensing | Rotary Table | Container placed at random with an assigned material ID and weight |
 | Detection | Quanser Q-bot Sensors | Material type identified for each container |
-| Loading | Quanser Q-arm | Up to 3 containers loaded onto the hopper, combined weight capped at 90 grams |
+| Loading | Quanser Q-arm | Up to 3 containers loaded onto the hopper, combined weight max 90 grams |
 | Navigation | IR Sensor, Fixed Line Track | Robot follows the track toward the identified bin |
-| Positioning | Ultrasonic Sensor | Robot stopped at the correct distance from the bin |
+| Positioning | Ultrasonic Sensor | Robot stops at the correct distance from the bin |
 | Dumping | Linear Actuator, Rod and Pin Mechanism | Hopper rotates and releases containers into the bin |
 | Return | Python Program | Robot navigates back to its home position to begin the next cycle |
 
