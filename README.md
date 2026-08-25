@@ -116,8 +116,8 @@ This project addresses Canada's low recycling rate, where sensor limitations in 
 <p align="center"><em>Physical Model of the Rod and Pin Mechanism, showing each component along with the Hopper and Linear Actuator.</em></p>
 
 <p align="center">
-  <img src="Media/Pictures/Full_CAD_Design_with_Hopper.jpg" width="385">
-  <img src="Media/Pictures/Left_View_of_Full_CAD_Design.jpg" width="463">
+  <img src="Media/Pictures/Full_CAD_Design_with_Hopper.jpg" width="375">
+  <img src="Media/Pictures/Left_View_of_Full_CAD_Design.jpg" width="453">
 </p>
 <p align="center"><em>CAD Model of the Rod and Pin Mechanism, showing each component along with the Hopper and Linear Actuator.</em></p>
 
