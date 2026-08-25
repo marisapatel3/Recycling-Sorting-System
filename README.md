@@ -112,7 +112,7 @@ This project addresses Canada's low recycling rate, where sensor limitations in 
 
 <p align="center">
   <img src="Design/Physical Model/Full_Assembled_Physical_Model.jpg" width="340">
-  <img src="Design/Physical Model/Physical_Model_Close_Up_View.jpg" width="290">
+  <img src="Design/Physical Model/Physical_Model_Close_Up_View.jpg" width="295">
 </p>
 <p align="center"><em>CAD Model of the Rod and Pin Mechanism From the Home View (Left) and Side View Showing the Actuated Rotation (Right).</em></p>
 
