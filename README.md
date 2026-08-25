@@ -97,10 +97,9 @@ This project addresses Canada's low recycling rate, where sensor limitations in 
 
 ### 4. Actuation Mechanism
 
-- The linear actuator is mounted to the system's baseplate, positioned below and connected to the hopper by a rod, slider, and pin assembly designed specifically for this project.
+- The linear actuator is mounted to the system's baseplate, positioned below and connected to the hopper by a rod, slider, and pin assembly designed for this project.
 - As the actuator extends, the rod pushes against the hopper, rotating it on its hinge and releasing its contents into the bin below.
 - Pins secure both ends of the rod, with small cylindrical pieces holding each pin in place within the slider to keep the mechanism stable during repeated actuation.
-- Early concepts explored a rotary actuator driving a series of gears, and a roller riding along a track, before the team settled on this simpler rod and pin design, which was refined through several rounds of sketches to work out pin placement and slider geometry before being modelled in Autodesk Inventor and fabricated by 3D printing.
 - After dumping, the actuator retracts, resetting the hopper to its closed position before the robot returns home.
 
   <video src="https://github.com/user-attachments/assets/857b45c8-ef57-49da-bb1a-ce1d004fa818" controls></video>
