@@ -40,16 +40,16 @@ This project addresses Canada's low recycling rate, where sensor limitations in 
 
 | Component | Purpose |
 |---|---|
+| Rod, Slider, and Pins | Custom designed mechanism connecting the linear actuator to the hopper, converting linear actuation into hopper rotation |
+| Linear Actuator | Mounted to the system's baseplate, drives the rod and pin mechanism to tip the hopper and release waste into the correct bin |
 | Quanser Q-bot | Mobile robot base that carries the hopper, follows the fixed track, and positions itself in front of each bin |
 | Quanser Q-arm | Robotic arm that loads containers from the rotary table onto the hopper |
+| Rotary Table | Dispenses waste containers at random for the robot to identify and load |
 | Ultraviolet Sensor | Assists in identifying material type of each dispensed container |
 | IR (Infrared) Sensor | Keeps the robot following its fixed line track |
 | Colour Sensor | Detects the colour of each container to help classify material type |
 | LDR (Light Dependent Resistor) Sensor | Detects light levels to assist material identification |
 | Ultrasonic Sensor | Measures distance to position the robot accurately in front of each bin before disposal |
-| Linear Actuator | Mounted to the system's baseplate, drives the rod and pin mechanism to tip the hopper and release waste into the correct bin |
-| Rod, Slider, and Pins | Custom designed mechanism connecting the linear actuator to the hopper, converting linear actuation into hopper rotation |
-| Rotary Table | Dispenses waste containers at random for the robot to identify and load |
 
 ### Software
 
