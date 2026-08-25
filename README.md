@@ -123,8 +123,8 @@ This project addresses Canada's low recycling rate, where sensor limitations in 
 <p align="center"><em>CAD Model of the Rod and Pin Mechanism From the Home View (Left) and Side View Showing the Actuated Rotation (Right).</em></p>
 
 <p align="center">
-  <img src="Media/Pictures/CAD_Rod.jpg" width="230">
-  <img src="Media/Pictures/CAD_Slider.jpg" width="300">
+  <img src="Media/Pictures/CAD_Rod.jpg" width="220">
+  <img src="Media/Pictures/CAD_Slider.jpg" width="315">
 </p>
 <p align="center"><em>CAD Model of the Rod (Left) and Slider (Right) Components of the Mechanism.</em></p>
 
