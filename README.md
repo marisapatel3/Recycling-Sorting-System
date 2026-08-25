@@ -104,7 +104,7 @@ This project addresses Canada's low recycling rate, where sensor limitations in 
 - After dumping, the actuator retracts, resetting the hopper to its closed position before the robot returns home.
 
   <video src="https://github.com/user-attachments/assets/857b45c8-ef57-49da-bb1a-ce1d004fa818" controls></video>
-  <p align="center"><em>Demonstration of the CAD-Designed Rod and Pin Mechanism Extending and Tipping the Hopper to Release Its Contents.</em></p>
+  <p align="center"><em>Demonstration of the CAD-Designed Rod and Pin Mechanism Extending and Tipping the Hopper to Release its Contents.</em></p>
 
 ---
 
@@ -114,13 +114,13 @@ This project addresses Canada's low recycling rate, where sensor limitations in 
   <img src="Design/Physical Model/Full_Assembled_Physical_Model.jpg" width="340">
   <img src="Design/Physical Model/Physical_Model_Close_Up_View.jpg" width="295">
 </p>
-<p align="center"><em>CAD Model of the Rod and Pin Mechanism From the Home View (Left) and Side View Showing the Actuated Rotation (Right).</em></p>
+<p align="center"><em>Physical Model of the Rod and Pin Mechanism, showing each component along with the Hopper and Linear Actuator.</em></p>
 
 <p align="center">
   <img src="Media/Pictures/Full_CAD_Design_with_Hopper.jpg" width="385">
   <img src="Media/Pictures/Left_View_of_Full_CAD_Design.jpg" width="463">
 </p>
-<p align="center"><em>CAD Model of the Rod and Pin Mechanism From the Home View (Left) and Side View Showing the Actuated Rotation (Right).</em></p>
+<p align="center"><em>CAD Model of the Rod and Pin Mechanism, showing each component along with the Hopper and Linear Actuator.</em></p>
 
 <p align="center">
   <img src="Media/Pictures/CAD_Rod.jpg" width="220">
@@ -132,18 +132,18 @@ This project addresses Canada's low recycling rate, where sensor limitations in 
   <img src="Media/Pictures/CAD_Cylindrical_Pin_Actuator_Piece.jpg" width="400">
   <img src="Media/Pictures/CAD_Cylindrical_Pin.jpg" width="420">
 </p>
-<p align="center"><em>CAD Model of the Pin Securing Piece (Left) and Cylindrical Pin (Right) That Hold the Rod in Place.</em></p>
+<p align="center"><em>CAD Model of the Cylindrical Pin Actuator Piece (Left) and Cylindrical Pin (Right) that hold the Rod in place.</em></p>
 
 <p align="center">
   <img src="Media/Pictures/CAD_Pin_Securing_Piece.jpg" width="300">
 </p>
-<p align="center"><em>3D Printed Rod and Pin Mechanism Mounted to the Quanser Q-bot (Left), and a Close Up View of the Rod and Pin Assembly (Right).</em></p>
+<p align="center"><em>CAD Model of the Pin Securing Piece.</em></p>
 
 <p align="center">
   <img src="Design/Engineering Drawings/Rod_Drawing.jpg" width="400">
   <img src="Design/Engineering Drawings/Slider_Drawing.jpg" width="400">
 </p>
-<p align="center"><em>Engineering Drawings of Rod (left) and Slider (right), in mm.</em></p>
+<p align="center"><em>Engineering Drawings of Rod (left) and Sliders (right), in mm.</em></p>
 
 <p align="center">
   <img src="Design/Engineering Drawings/Cylindrical_Pin_Actuator_Piece_Drawing.jpg" width="400">
@@ -154,7 +154,7 @@ This project addresses Canada's low recycling rate, where sensor limitations in 
 <p align="center">
   <img src="Design/Engineering Drawings/Pin_Securing_Piece_Drawing.jpg" width="400">
 </p>
-<p align="center"><em>Engineering Drawings of Pin Securing Piece, in mm.</em></p>
+<p align="center"><em>Engineering Drawing of Pin Securing Pieces, in mm.</em></p>
 
 ---
 
